@@ -1,3 +1,8 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
 .hero, .footer {
     background-color: #1F2937;
 }
@@ -23,8 +28,8 @@
 .text {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    gap: 5px;
+    width: 250px;
+    gap: 20px;
     flex-grow: 1;
 }
 
@@ -37,6 +42,7 @@
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    width: 350px;
 }
 
 .links {
@@ -56,9 +62,19 @@ ul {
     margin: 0;    
 }
 
+a {
+    color:#F9FAF8; 
+    text-decoration:none; 
+    cursor:pointer;
+}
+
 .subtext, .links, .second {
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.subtext {
+    font-style: italic;
 }
 
 button {
@@ -67,9 +83,10 @@ button {
     border-radius: 8px;
     cursor: pointer;
     text-align: center;
-    padding: 5px 15px;
-    width: 100px;
+    padding: 10px 15px;
     font-weight: bold;
+    font-size: 15px;
+    width: 150px;
 }
 
 .button-one {
@@ -100,15 +117,19 @@ button {
     gap: 20px;
 }
 
+.line {
+    font-style: italic;
+}
+
 .quote {
     background-color: #E5E7EB;
     color: #1F2937;
-    font-style: italic;
     text-align: left;
-    padding: 50px 250px 100px;
+    padding: 50px 350px 50px;
     display: flex;
     flex-direction: column;
     font-size: 36px;
+    gap: 10px;
 }
 
 .author {
@@ -118,8 +139,8 @@ button {
 .CTA {
     display: flex;
     background-color: #3882F6;
-    padding: 50px;
-    margin: 100px 200px;
+    padding: 40px;
+    margin: 80px 200px;
 }
 
 .marketing {
@@ -128,6 +149,7 @@ button {
     color: #F9FAF8;
     font-size: 18px;
     padding-left: 50px;
+    gap: 5px;
 }
 
 .footer {
@@ -135,5 +157,5 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    height: 70px;
 }
