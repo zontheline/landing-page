@@ -100,14 +100,25 @@ button {
 
 .random {
     text-align: center;
-    padding: 50px 200px 100px;
+    padding: 50px 200px 80px;
 }
 
 .info {
+    display: flex;
+    flex-direction: column;
     color:#1F2937;
+    gap: 5px;
+}
+
+.info-one {
     font-size: 36px;
     font-weight: 900;
-    padding-bottom: 50px;
+}
+
+.info-two {
+    font-size: 18px;
+    padding-bottom: 40px;
+    font-style: italic;
 }
 
 .collection {
