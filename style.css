@@ -1,13 +1,11 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0px;
-}
-
-.hero, .footer {
-    background-color: #1F2937;
+    background-color: #fff0ff;
 }
 
 .hero {
+    background-color: #a87bc7;
     padding: 50px 200px 0px;
     display: flex;
     flex-direction: column;
@@ -51,7 +49,7 @@ body {
     gap: 20px;
 }
 
-.logo, .first {
+.logo {
     color: #F9FAF8;
     font-size: 24px;
 }
@@ -68,8 +66,8 @@ a {
     cursor:pointer;
 }
 
-.subtext, .links, .second {
-    color: #E5E7EB;
+.subtext, .links {
+    color: #F9FAF8;
     font-size: 18px;
 }
 
@@ -78,8 +76,8 @@ a {
 }
 
 button {
-    color: #F9FAF8;
-    background-color: #3882F6;
+    color: black;
+    background-color: #b3ffe2;
     border-radius: 8px;
     cursor: pointer;
     text-align: center;
@@ -94,7 +92,7 @@ button {
 }
 
 .button-two {
-    border: 1px solid white;
+    border: 1px solid black;
     margin-left: auto;
 }
 
@@ -133,7 +131,7 @@ button {
 }
 
 .quote {
-    background-color: #E5E7EB;
+    background-color: #e0b0ff;
     color: #1F2937;
     text-align: left;
     padding: 50px 350px 50px;
@@ -149,7 +147,7 @@ button {
 
 .CTA {
     display: flex;
-    background-color: #3882F6;
+    background-color: #b3ffe2;
     padding: 40px;
     margin: 80px 200px;
 }
@@ -157,13 +155,19 @@ button {
 .marketing {
     display: flex;
     flex-direction: column;
-    color: #F9FAF8;
+    color: black;
     font-size: 18px;
     padding-left: 50px;
     gap: 5px;
 }
 
+.first {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .footer {
+    background-color: #734a91;
     color: #E5E7EB;
     display: flex;
     align-items: center;
