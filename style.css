@@ -148,8 +148,8 @@ button {
 .CTA {
     display: flex;
     background-color: #b3ffe2;
-    padding: 40px;
-    margin: 80px 200px;
+    padding: 40px 120px 40px 40px;
+    margin: 80px 250px;
 }
 
 .marketing {
