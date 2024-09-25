@@ -1,6 +1,6 @@
 # landing-page
 
-## the task ##
+### the task ###
 
 i created a webpage from scratch using html and css.
 
